@@ -1,0 +1,16 @@
+
+post  http://localhost:4001/todos/
+Content-Type: application/json
+
+   {
+    "id": 4,
+    "todo": "Play volleyball",
+    "priority": "MEDIUM",
+    "status": "DONE"
+  }
+
+###
+get  http://localhost:4001/todos/
+
+###
+get  http://localhost:4001/todos/?status=TO DO
